@@ -108,7 +108,7 @@ LangGraph 提供了丰富的多智能体架构模式（如网络架构、Supervi
 注意：项目开发时候使用的python是3.12，建议使用python3.12
 
 ```bash
-git clone XXXX.git
+git clone https://github.com/YangYang-ynu/A_mail.git
 ```
 
 ### 2. 安装依赖
