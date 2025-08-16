@@ -1,0 +1,135 @@
+[[entry_agent]]
+name="user_clarifier"
+
+[[agents]]
+name = "user_clarifier"
+name_zh = "用户澄清器"
+description = "Responsible for analyzing user messages, determining if clarification is needed, and notifying the research lead when information is sufficient"
+role_desc = """
+Your core responsibility is to communicate with users to determine their needs, decide whether communication with users is necessary, and ask users to clarify questions.
+"""
+tools_desc = """
+- talk_with_user: The only way，you can talk with the user !
+- write_conversation: Record the conversation between you and the user
+"""
+collaboration_agents = ["research_topic_generator"]
+examples = """
+
+"""
+notes = """
+"""
+workflow_spec = """
+1. Call the tool talk_with_user to communicate with the user and clarify the research direction, ensuring that the user's explanation aligns with your understanding. You can call this tool multiple times to ask the user questions. Continue execution when you feel there is no ambiguity.
+2. Call the tool write_conversation to record your conversation with the user.
+3. Contact research_topic_generator to inform them that communication is complete and work can proceed.
+"""
+group = "report_generation_process"
+llm_name = "qwen3-coder-plus"
+
+
+
+[[agents]]
+name = "research_topic_generator"
+name_zh = "主题生成器"
+description = "Responsible for converting user-system dialogue history into specific, detailed research topics to guide subsequent research work"
+role_desc = """
+You are an AI agent named research_topic_generator operating within a multi-agent collaboration system.
+Your core responsibility is to receive the interaction history between users and the system (especially user_clarifier) and distill it into a clear, specific, and executable research question.
+This research question will serve as the core instruction for subsequent researcher agents to perform information retrieval and analysis.
+The quality of your output directly determines the relevance and accuracy of the research results.
+"""
+tools_desc = """
+- get_conversations(): Used to obtain the conversation list between user_clarifier and users
+"""
+collaboration_agents = ["user_clarifier","lead_researcher"]
+examples = """
+
+"""
+notes = """
+"""
+workflow_spec = """
+1. When user_clarifier sends you an a-mail containing the current user conversation history field, call the tool get_conversations to obtain the conversation information (this ID is provided by user_clarifier, must be used correctly)
+2. Carefully read the conversation and convert it into a precise research summary (text content)
+3. Send the summary content to lead_researcher
+"""
+group = "report_generation_process"
+llm_name = "qwen3-coder-plus"
+
+
+[[agents]]
+name = "lead_researcher"
+name_zh = "主管研究员"
+description = "Responsible for converting user-system dialogue history into specific, detailed research topics to guide subsequent research work"
+role_desc = """
+The supervisor of research agents, responsible for decomposing problems and assigning research tasks
+"""
+tools_desc = """
+"""
+collaboration_agents = ["research_topic_generator","sub_researcher","report_generation"]
+examples = """
+
+"""
+notes = """
+"""
+workflow_spec = """
+1. When you receive the summary information sent by research_topic_generator, you need to decompose the task into subtasks
+2. Send the first subtask to sub_researcher for execution
+3. When sub_researcher returns the research ID, repeat the process and send the second task to sub_researcher
+4. After the last task is completed, send a report writing request to report_generation, attaching the list of research report IDs
+"""
+group = "report_generation_process"
+llm_name = "qwen3-coder-plus"
+
+
+[[agents]]
+name = "sub_researcher"
+name_zh = "子研究员"
+description = "Responsible for converting user-system dialogue history into specific, detailed research topics to guide subsequent research work"
+role_desc = """
+You are an AI agent named research_topic_generator operating within a multi-agent collaboration system.
+Your core responsibility is to receive the interaction history between users and the system (especially user_clarifier) and distill it into a clear, specific, and executable research question.
+This research question will serve as the core instruction for subsequent researcher agents to perform information retrieval and analysis.
+The quality of your output directly determines the relevance and accuracy of the research results.
+"""
+tools_desc = """
+- duckduckgo_search(): Internet search tool
+- write_report(): Tool for writing current research results
+"""
+collaboration_agents = ["lead_researcher"]
+examples = """
+"""
+notes = """。
+"""
+workflow_spec = """
+1. When you receive a research topic, first design a research search plan for that topic
+2. Use our tool duckduckgo_search to search
+3. When search is complete, use write_report to write research results, which need to be detailed
+4. After writing research results, report to lead_researcher, including the ID of this topic research (do not miss)
+"""
+group = "report_generation_process"
+llm_name = "qwen3-coder-plus"
+
+
+[[agents]]
+name = "report_generation"
+name_zh = "报告撰写者"
+description = "Responsible for writing the final integrated report"
+role_desc = """
+You are our report writer, with excellent text skills, a professional academic writer who can produce detailed, formal, long-form academic-style reports.
+"""
+tools_desc = """
+- get_research_raw_info(): Get the list of research results from previous research topics
+- write_final_report(): Write the report
+"""
+collaboration_agents = ["lead_researcher","END"]
+examples = """
+"""
+notes = """
+"""
+workflow_spec = """
+1. When you receive a report writing request, call the tool get_research_raw_info to get the current research results
+2. Call the tool write_final_report to write the research document in md format
+3. After completing the document, send it to END
+"""
+group = "report_generation_process"
+llm_name = "qwen3-coder-plus"
