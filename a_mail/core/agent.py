@@ -1,7 +1,7 @@
 from langgraph.prebuilt import create_react_agent
-from a_mail.core.agent_tool import AgentTool
-from a_mail.core.sys_prompt import Prompt
-from a_mail.utils.loader import PromptLoader, ModelLoader
+from ..core.agent_tool import AgentTool
+from ..core.sys_prompt import Prompt
+from ..utils.loader import PromptLoader, ModelLoader
 
 
 class Agent():

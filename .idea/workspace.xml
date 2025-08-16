@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21a1375a-31ec-4108-884d-6b680f9ccb5e" name="更改" comment="Create LICENSE" />
+    <list default="true" id="21a1375a-31ec-4108-884d-6b680f9ccb5e" name="更改" comment="Create LICENSE">
+      <change afterPath="$PROJECT_DIR$/a_mail/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a_mail/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_mail/core/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_mail/core/agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_mail/core/agent_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_mail/core/agent_tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_mail/core/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_mail/core/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_mail/core/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_mail/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_mail/core/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_mail/core/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_examples/four_basic_operations/four_basic_operations_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_examples/four_basic_operations/four_basic_operations_tool.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,43 +59,47 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="31FxnE5OaPkHe4M8RzOpI6CDQxu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.agent.executor&quot;: &quot;Run&quot;,
-    &quot;Python.deep_reacher_tool.executor&quot;: &quot;Run&quot;,
-    &quot;Python.four_basic_operations_tool.executor&quot;: &quot;Run&quot;,
-    &quot;Python.graph.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loader.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.run (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/CODE/python/A_mail&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.agent.executor": "Run",
+    "Python.deep_reacher_tool.executor": "Run",
+    "Python.four_basic_operations_tool.executor": "Run",
+    "Python.graph.executor": "Run",
+    "Python.loader.executor": "Run",
+    "Python.run (1).executor": "Run",
+    "Python.run (2).executor": "Run",
+    "Python.run.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/CODE/python/A_mail/a_mail/core",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\CODE\python\A_mail\a_mail\core" />
+      <recent name="F:\CODE\python\A_mail\a_mail\utils" />
       <recent name="F:\CODE\python\A_mail" />
       <recent name="F:\CODE\python\A_mail\user_examples\deep_research_brief" />
-      <recent name="F:\CODE\python\A_mail\a_mail\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\CODE\python\A_mail\a_mail\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.run (2)">
     <configuration name="agent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A_mail" />
       <option name="ENV_FILES" value="" />
@@ -295,10 +309,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run (2)" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.deep_research_tool" />
         <item itemvalue="Python.four_basic_operations_tool" />
-        <item itemvalue="Python.run (2)" />
         <item itemvalue="Python.run (1)" />
       </list>
     </recent_temporary>
@@ -322,6 +336,7 @@
       <workItem from="1755133787848" duration="4107000" />
       <workItem from="1755154558593" duration="18086000" />
       <workItem from="1755241267063" duration="22305000" />
+      <workItem from="1755340291899" duration="1381000" />
     </task>
     <task id="LOCAL-00001" summary="全部提交">
       <option name="closed" value="true" />
@@ -352,6 +367,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="全部提交" />

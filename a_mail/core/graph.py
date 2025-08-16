@@ -1,11 +1,10 @@
 import json
 import os
 from datetime import datetime
-
-from a_mail.core.agent import Agent
-from a_mail.core.printer import MessageStreamer
-from a_mail.core.state import StateCreator
-from a_mail.utils.loader import PromptLoader
+from ..core.agent import Agent
+from ..core.printer import MessageStreamer
+from ..core.state import StateCreator
+from ..utils.loader import PromptLoader
 import uuid
 import logging
 from langgraph.checkpoint.sqlite import SqliteSaver
@@ -14,7 +13,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.types import Command
 from langgraph.graph import StateGraph, START, END
 from typing_extensions import  Literal
-from a_mail.utils.parse_output import parse_output_to_dict, replace_mail_type_with_receive
+from ..utils.parse_output import parse_output_to_dict, replace_mail_type_with_receive
 
 
 logging.basicConfig(level=logging.INFO)

@@ -1,4 +1,4 @@
-from a_mail.utils.loader import PromptLoader
+from ..utils.loader import PromptLoader
 
 
 class AgentTool:

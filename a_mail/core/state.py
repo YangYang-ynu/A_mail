@@ -2,7 +2,7 @@ from typing import Dict, TypedDict, Annotated
 
 from langgraph.graph import add_messages
 
-from a_mail.utils.loader import PromptLoader
+from ..utils.loader import PromptLoader
 
 
 # 创建 TokenUsage 类

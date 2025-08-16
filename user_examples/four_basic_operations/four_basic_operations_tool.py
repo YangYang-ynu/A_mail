@@ -65,4 +65,3 @@ agent_tools = {
     "multiplication_expert": [perform_multiplication],
     "division_expert": [perform_division]
 }
-print( 1*96.3/58.21365895+9*3.659-9.365)
