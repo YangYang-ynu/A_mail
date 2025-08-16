@@ -352,7 +352,7 @@ If this can inspire fellow developers, I’ll be very happy.
 
 Regarding maintenance, I will definitely keep it up, as I find this approach quite interesting and capable of achieving some fun things.
 
-If any students or developers want to join and help solve some of the issues ~~this project hasn’t addressed yet — like making it possible to boot up LangGraph, maybe we could rename it to `langgraphboot` — just kidding, hahaha — I’m very welcome to that.~~
+If any developers want to join and help solve some of the issues ~~this project hasn’t addressed yet — like making it possible to boot up LangGraph, maybe we could rename it to `langgraphboot` — just kidding, hahaha — I’m very welcome to that.~~
 
 You can contact me via email:
 
