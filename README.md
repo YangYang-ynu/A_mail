@@ -105,7 +105,7 @@ This allows developers to focus on overall architecture design, prompt optimizat
 Note: Python 3.12 was used during development. It is recommended to use Python 3.12.
 
 ```bash
-git clone XXXX.git
+git clone https://github.com/YangYang-ynu/A_mail.git
 ```
 
 ### 2. Install Dependencies
