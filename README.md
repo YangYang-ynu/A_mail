@@ -1,6 +1,6 @@
 # A_mail — A Multi-Agent Communication Protocol Solution Based on LangGraph
 
-[中文版](README_zh.md) | English Version
+[简体中文](README_zh.md) | English Version
 
 ## Table of Contents
 

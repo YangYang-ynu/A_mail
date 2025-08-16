@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21a1375a-31ec-4108-884d-6b680f9ccb5e" name="更改" comment="Create LICENSE">
-      <change afterPath="$PROJECT_DIR$/a_mail/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mail/utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_mail/core/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_mail/core/agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_mail/core/agent_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_mail/core/agent_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_mail/core/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_mail/core/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_mail/core/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_mail/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_mail/core/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/a_mail/core/state.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_examples/four_basic_operations/four_basic_operations_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_examples/four_basic_operations/four_basic_operations_tool.py" afterDir="false" />
+    <list default="true" id="21a1375a-31ec-4108-884d-6b680f9ccb5e" name="更改" comment="Update README.md">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_zh.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_zh.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +23,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="dev_yang &lt;152080342+dev-yang-ai@users.noreply.github.com&gt;" />
         <option value="dev_yang &lt;152080342+yangyang-ynu@users.noreply.github.com&gt;" />
       </list>
     </option>
@@ -336,7 +330,7 @@
       <workItem from="1755133787848" duration="4107000" />
       <workItem from="1755154558593" duration="18086000" />
       <workItem from="1755241267063" duration="22305000" />
-      <workItem from="1755340291899" duration="1381000" />
+      <workItem from="1755340291899" duration="1487000" />
     </task>
     <task id="LOCAL-00001" summary="全部提交">
       <option name="closed" value="true" />
@@ -362,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755320831669</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1755342337832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755342337832</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,12 +384,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="全部提交" />
     <MESSAGE value="Create LICENSE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create LICENSE" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/A_mail$run.coverage" NAME="run 覆盖结果" MODIFIED="1755312734082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_examples/deep_research_brief" />
     <SUITE FILE_PATH="coverage/A_mail$graph.coverage" NAME="graph 覆盖结果" MODIFIED="1755244301670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/a_mail/core" />
-    <SUITE FILE_PATH="coverage/A_mail$run__2_.coverage" NAME="run (2) 覆盖结果" MODIFIED="1755268468951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_examples/four_basic_operations" />
+    <SUITE FILE_PATH="coverage/A_mail$run__2_.coverage" NAME="run (2) 覆盖结果" MODIFIED="1755342243231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_examples/four_basic_operations" />
     <SUITE FILE_PATH="coverage/A_mail$four_basic_operations_tool.coverage" NAME="four_basic_operations_tool 覆盖结果" MODIFIED="1755268555230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_examples/four_basic_operations" />
     <SUITE FILE_PATH="coverage/A_mail$agent.coverage" NAME="agent 覆盖结果" MODIFIED="1755170596181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/a_mail/core" />
     <SUITE FILE_PATH="coverage/A_mail$run__1_.coverage" NAME="run (1) 覆盖结果" MODIFIED="1755268065378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_examples/APSM" />

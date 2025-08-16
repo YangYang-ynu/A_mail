@@ -1,6 +1,6 @@
 # A_mail — 基于 LangGraph 的多智能体通信协议解决方案
 
-中文版 | [English Version](README.md)
+简体中文 | [English Version](README.md)
 
 ## 目录
 - [特别致谢](#特别致谢)
