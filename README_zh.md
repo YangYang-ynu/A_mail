@@ -1,6 +1,7 @@
 <p align="center">
   <img src="./image/logo.png" alt="Logo" width="500">
 </p>
+
 # A_mail — 基于 LangGraph 的多智能体通信协议解决方案
 
 简体中文 | [English Version](README.md)
