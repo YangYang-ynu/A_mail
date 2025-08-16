@@ -1,3 +1,14 @@
+<p align="center">
+  <svg width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Logo">
+    <defs>
+      <clipPath id="roundRectClip">
+        <rect x="0" y="0" width="200" height="200" rx="24" ry="24" />
+      </clipPath>
+    </defs>
+    <image href="./image/logo.png" width="200" height="200" clip-path="url(#roundRectClip)" />
+  </svg>
+</p>
+
 # A_mail — A Multi-Agent Communication Protocol Solution Based on LangGraph
 
 [简体中文](README_zh.md) | English Version
