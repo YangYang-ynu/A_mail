@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21a1375a-31ec-4108-884d-6b680f9ccb5e" name="更改" comment="Create LICENSE">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README_zh.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_zh.md" afterDir="false" />
-    </list>
+    <list default="true" id="21a1375a-31ec-4108-884d-6b680f9ccb5e" name="更改" comment="Create LICENSE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -325,7 +321,7 @@
       <updated>1755133786799</updated>
       <workItem from="1755133787848" duration="4107000" />
       <workItem from="1755154558593" duration="18086000" />
-      <workItem from="1755241267063" duration="22007000" />
+      <workItem from="1755241267063" duration="22305000" />
     </task>
     <task id="LOCAL-00001" summary="全部提交">
       <option name="closed" value="true" />
@@ -343,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755318747535</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create LICENSE">
+      <option name="closed" value="true" />
+      <created>1755320831669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755320831669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
