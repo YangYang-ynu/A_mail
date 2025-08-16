@@ -1,5 +1,5 @@
 qwen:
-  api_key: sk-9ff959134b8047d6ad0adacae7dc91dc
+  api_key: sk-
   base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
   models:
     - name: qwen-max

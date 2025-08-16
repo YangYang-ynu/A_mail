@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
+- [Acknowledgements](#acknowledgements)
 - [Introduction](#introduction)
 - [Problems Encountered](#problems-encountered)
 - [Solution Approach](#solution-approach)
@@ -23,6 +24,14 @@
 
 ---
 
+## Acknowledgements
+
+> 🙏 **Special Thanks to LangGraph** 
+> 
+> We would like to express our sincere gratitude to the **[LangGraph](https://github.com/langchain-ai/langgraph)** framework for providing powerful multi-agent architecture support and convenient API tools. The rich architectural patterns and robust functionality of LangGraph laid the foundation for A_mail's development. Without LangGraph's excellent framework support, this project would not have been possible.
+
+---
+ 
 ## Introduction
 
 LangGraph provides rich multi-agent architecture patterns (such as network architecture, Supervisor architecture, hierarchical architecture, etc.) along with convenient API tools, making it easy for developers to quickly build systems.
@@ -69,6 +78,14 @@ It abstracts communication between agents into "mail"-like objects (inspired by 
 
 This allows developers to focus on overall architecture design, prompt optimization, and tool development (with AI-assisted design support), without being slowed down by tedious routing code.
 
+
+When the number of agents increases, the structure will look like this:
+
+
+
+![](./image/al_en.drawio.svg)
+
+
 ---
 
 ## A_mail_demo System Features and Limitations
@@ -105,7 +122,7 @@ This allows developers to focus on overall architecture design, prompt optimizat
 Note: Python 3.12 was used during development. It is recommended to use Python 3.12.
 
 ```bash
-git clone https://github.com/YangYang-ynu/A_mail.git
+git clone https://github.com/dev-yang-ai/A_mail.git
 ```
 
 ### 2. Install Dependencies

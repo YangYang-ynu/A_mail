@@ -1,11 +1,9 @@
-
 # A_mail — 基于 LangGraph 的多智能体通信协议解决方案
 
 中文版 | [English Version](README_en.md)
 
-
 ## 目录
-
+- [特别致谢](#特别致谢)
 - [背景介绍](#背景介绍)
 - [遇到的问题](#遇到的问题)
 - [解决思路](#解决思路)
@@ -22,8 +20,18 @@
 - [示例项目](#示例项目)
 - [开源协议](#开源协议)
 - [写到最后](#写到最后)
+---
 
 ---
+
+## 特别致谢
+
+> 🙏 **感谢 LangGraph 框架**
+> 
+> 我们要特别感谢 **[LangGraph](https://github.com/langchain-ai/langgraph)** 框架提供的强大支持。LangGraph 丰富的多智能体架构模式和便捷的 API 工具为 A_mail 的开发奠定了坚实基础。正是得益于 LangGraph 优秀的框架支持，这个项目才得以实现。
+
+---
+
 
 ## 背景介绍
 
@@ -71,6 +79,11 @@ LangGraph 提供了丰富的多智能体架构模式（如网络架构、Supervi
 
 这样，开发者可以更专注于整体架构设计、提示词的优化和工具的开发（这里我们就可以借助 AI 辅助设计），而不必被繁琐的路由编码拖慢进度。
 
+当智能体数量变多时，结构就会是这样的：
+
+![](./image/al_zh.drawio.svg)
+
+
 ---
 
 ## A_mail_demo 系统功能和限制
@@ -108,7 +121,7 @@ LangGraph 提供了丰富的多智能体架构模式（如网络架构、Supervi
 注意：项目开发时候使用的python是3.12，建议使用python3.12
 
 ```bash
-git clone https://github.com/YangYang-ynu/A_mail.git
+git clone https://github.com/dev-yang-ai/A_mail.git
 ```
 
 ### 2. 安装依赖

@@ -4,40 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21a1375a-31ec-4108-884d-6b680f9ccb5e" name="更改" comment="全部提交">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/A_mail.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README_en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README_zh.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mail/core/agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mail/core/agent_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mail/core/graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mail/core/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mail/core/printer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mail/core/state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mail/core/sys_prompt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mail/utils/loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a_mail/utils/parse_output.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/open_deep_research_en.drawio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/open_deep_research_zh.drawio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/parse_forward_en.drawio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/parse_forward_zh.drawio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_examples/deep_research_brief/deep_reacher_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_examples/deep_research_brief/generated_reports/Comprehensive Report on Apples.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_examples/deep_research_brief/model_config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_examples/deep_research_brief/prompts.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_examples/deep_research_brief/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_examples/four_basic_operations/four_basic_operations_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_examples/four_basic_operations/model_config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_examples/four_basic_operations/prompts.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_examples/four_basic_operations/run.py" afterDir="false" />
+    <list default="true" id="21a1375a-31ec-4108-884d-6b680f9ccb5e" name="更改" comment="Create LICENSE">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_zh.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_zh.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,21 +22,33 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="dev_yang &lt;152080342+yangyang-ynu@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "YangYang-ynu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YangYang-ynu&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/YangYang-ynu/A_mail.git",
-    "accountId": "f2437d03-eeb5-44cb-bd7c-6097594b0540"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YangYang-ynu/A_mail.git&quot;,
+    &quot;accountId&quot;: &quot;f2437d03-eeb5-44cb-bd7c-6097594b0540&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -76,27 +58,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.agent.executor": "Run",
-    "Python.deep_reacher_tool.executor": "Run",
-    "Python.four_basic_operations_tool.executor": "Run",
-    "Python.graph.executor": "Run",
-    "Python.loader.executor": "Run",
-    "Python.run (1).executor": "Run",
-    "Python.run (2).executor": "Run",
-    "Python.run.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/CODE/python/A_mail",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.agent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.deep_reacher_tool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.four_basic_operations_tool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.graph.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.run (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/CODE/python/A_mail&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\CODE\python\A_mail" />
@@ -131,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="deep_reacher_tool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="deep_research_tool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="A_mail" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,7 +127,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_examples/deep_research_brief/deep_reacher_tool.py" />
+      <option name="SCRIPT_NAME" value="F:\CODE\python\A_mail\user_examples\deep_research_brief\deep_research_tool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,7 +300,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
-        <item itemvalue="Python.deep_reacher_tool" />
+        <item itemvalue="Python.deep_research_tool" />
         <item itemvalue="Python.four_basic_operations_tool" />
         <item itemvalue="Python.run (2)" />
         <item itemvalue="Python.run (1)" />
@@ -343,8 +325,25 @@
       <updated>1755133786799</updated>
       <workItem from="1755133787848" duration="4107000" />
       <workItem from="1755154558593" duration="18086000" />
-      <workItem from="1755241267063" duration="20154000" />
+      <workItem from="1755241267063" duration="22007000" />
     </task>
+    <task id="LOCAL-00001" summary="全部提交">
+      <option name="closed" value="true" />
+      <created>1755313313853</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755313313853</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create LICENSE">
+      <option name="closed" value="true" />
+      <created>1755318747535</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755318747535</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +351,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="全部提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="全部提交" />
+    <MESSAGE value="Create LICENSE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create LICENSE" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/A_mail$run.coverage" NAME="run 覆盖结果" MODIFIED="1755312734082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/user_examples/deep_research_brief" />
