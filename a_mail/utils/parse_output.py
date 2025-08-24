@@ -1,25 +1,24 @@
 import re
 from pprint import pprint
 
-def parse_output_to_dict(output:str):
-    # Step 1: Regex patterns to capture the required fields
-    patterns = {
-        'my_thoughts': r'"my_thoughts":\s*"(.*?)"',
-        'A-mail': r'"A-mail":\s*\{([^}]+)\}',  # Capture everything inside A-mail block
-        'mail_type': r'"mail_type":\s*"([^"]+)"',
-        'sender': r'"sender":\s*"([^"]+)"',
-        'receiver': r'"receiver":\s*"([^"]+)"'
-    }
-    extracted_data = {}
-    # Step 2: Use regex to extract required fields
-    for field, pattern in patterns.items():
-        match = re.search(pattern, output)
-        if match:
-            extracted_data[field] = match.group(1) if field != 'A-mail' else match.group(
-                0)  # Include the full A-mail block
+import regex as re 
 
-    # Step 3: Return the extracted data
-    return extracted_data
+def parse_output_to_dict(output: str):
+    patterns = {
+        'my_thoughts': r'"my_thoughts"\s*:\s*"(.*?)"',
+        'A-mail': r'"A-mail"\s*:\s*(\{(?:[^{}]++|(?1))*\})',  
+        'mail_type': r'"mail_type"\s*:\s*"([^"]+)"',
+        'sender': r'"sender"\s*:\s*"([^"]+)"',
+        'receiver': r'"receiver"\s*:\s*"([^"]+)"',
+    }
+
+    extracted = {}
+    for k, p in patterns.items():
+        m = re.search(p, output, re.S)
+        if m:
+            extracted[k] = m.group(1) if k != 'A-mail' else m.group(0)
+
+    return extracted
 
 def replace_mail_type_with_receive(text: str) -> str:
     """将A-mail中的mail_type字段改为'receive'"""
