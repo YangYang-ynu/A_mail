@@ -8,7 +8,7 @@ from ..utils.loader import PromptLoader
 import uuid
 import logging
 from langgraph.checkpoint.sqlite import SqliteSaver
-from langchain_core.messages import HumanMessage
+from langchain_core.messages import HumanMessage, ToolMessage
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.types import Command
 from langgraph.graph import StateGraph, START, END
@@ -73,7 +73,18 @@ class MultiAgentSystem:
             agent_message_list = f"{agent_name}_messages"
             # logger.info(state)
             # plogger.info(state[agent_message_list][-1])
-            response = agent.invoke({"messages": state[agent_message_list]})
+
+            window = 10
+
+            cut_messages = state[agent_message_list]
+
+            if len(state[agent_message_list]) > window:
+                cut_messages = cut_messages[-window:]
+                while len(cut_messages) > 0 and isinstance(cut_messages[0], ToolMessage):
+                    cut_messages = cut_messages[1:]
+
+            response = agent.invoke({"messages": cut_messages})
+
             # logger.info(response)
             return Command(goto="parsing_and_forwarding_node", update={
                 # stored the agent's messages history
